@@ -21,6 +21,13 @@ class ViewController: UIViewController {
         let url = NSURL(string: "http://www.stackoverflow.com")!
         
         
+        webView.loadRequest(NSURLRequest(URL: url))
+        
+        
+        
+        /*
+        
+        
         let task = NSURLSession.sharedSession().dataTaskWithURL(url) { (data, response, error) in
             
             // Will happen when task completes
@@ -46,6 +53,9 @@ class ViewController: UIViewController {
         }
         
         task.resume()
+        
+ */
+        
         
     }
 
