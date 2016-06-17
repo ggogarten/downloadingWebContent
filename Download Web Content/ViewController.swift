@@ -31,7 +31,7 @@ class ViewController: UIViewController {
                 
                 dispatch_async(dispatch_get_main_queue(), {
                     
-                    self.webView.loadHTMLString(String(webContent), baseURL: nil)
+                    self.webView.loadHTMLString(String(webContent!), baseURL: nil)
                     
                 })
                 
